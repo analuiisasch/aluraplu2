@@ -122,5 +122,50 @@
  font-size: 32px;
  color:var(--branco-principal);
 }
-    
+ .rodape{
+    text-align: center;
+    color: var(--branco-principal);
+ }
+ .rodape__logo{
+    margin-bottom: 30px;
+
+
+ }
+ .rodape__lista{
+    display: inline;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0 5px;
+    color:#FFFFFF;
+ }
+ .lista_link{
+    margin: 5px 10px 20px;
+    text-decoration: none;/* Remover sublinhado dos links*/
+
+ }
+ .rodape__lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0 5px;
+    color: #FFFFFF;
+ }
+ .lista_link{
+   margin: 5px 10px 20px; 
+   text-decoration: none;/*Remover sublinhado dos links*/
+ }
+ .rodape__texto{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+    color: var(--cinza-secundario);
+ }
+ .link{
+    color: var(--branco-principal);
+ }
+
+ 
+
+
+       
     
